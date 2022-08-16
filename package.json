@@ -1,5 +1,5 @@
 {
-	"name": "pure",
+	"name": "backend-security",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -7,10 +7,8 @@
 	"scripts": {
 		"start:backend": "node src/backend/main.js",
 		"start:frontend": "node src/frontend/main.js",
-		"start:frontend1": "node src/frontend1/main.js",
 		"dev:backend": "nodemon src/backend/main.js",
-		"dev:frontend": "nodemon src/frontend/main.js",
-		"dev:frontend1": "nodemon src/frontend1/main.js"
+		"dev:frontend": "nodemon src/frontend/main.js"
 	},
 	"keywords": [],
 	"author": "",
