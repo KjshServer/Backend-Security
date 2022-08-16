@@ -1,0 +1,25 @@
+{
+	"name": "pure",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start:backend": "node src/backend/main.js",
+		"start:frontend": "node src/frontend/main.js",
+		"start:frontend1": "node src/frontend1/main.js",
+		"dev:backend": "nodemon src/backend/main.js",
+		"dev:frontend": "nodemon src/frontend/main.js",
+		"dev:frontend1": "nodemon src/frontend1/main.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.1"
+	}
+}
